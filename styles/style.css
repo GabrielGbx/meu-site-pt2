@@ -114,3 +114,35 @@ body {
     border: double var(--cor-terciaria);
     border-radius: 100px;
 }
+
+.curriculo_titulo {
+    display: flex;
+    justify-content: center; /* Centra o título */
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    padding: 20px;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+}
+    
+.curriculo_texto {
+    display: flex;
+    flex-direction: column; /* Para garantir que o conteúdo esteja alinhado verticalmente */
+    align-items: flex-start; /* Alinha o texto à esquerda */
+    width: 60%; /* Aumenta a largura do texto */
+    text-align: left; /* Alinha o texto à esquerda */
+    font-size: 24px;
+    font-weight: 400;
+    padding: 20px;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+    margin: 0; /* Retira o margin auto para manter o alinhamento */
+}
+
+.apresentacao_estudo_link a  {
+    text-decoration: none;
+    color: var(--cor-terciaria);
+}
